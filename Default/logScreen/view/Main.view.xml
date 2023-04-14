@@ -28,20 +28,20 @@
                         <fb:filterItems>
                             <fb:FilterItem name="Başlangıç Zamanı" label="Başlangıç Zamanı">
                                 <fb:control>
-                                    <DateTimePicker id="I_START_DATE" class="sapUiSmallMarginBottom" valueFormat="yyyy-MM-dd HH:mm:ss"/>
+                                    <DateTimePicker id="I_START_DATE" class="sapUiSmallMarginBottom" valueFormat="yyyy-MM-dd HH:mm:ss" />
                                 </fb:control>
                             </fb:FilterItem>
                             <fb:FilterItem name="Bitiş Zamanı" label="Bitiş Zamanı">
                                 <fb:control>
-                                    <DateTimePicker id="I_END_DATE" class="sapUiSmallMarginBottom" valueFormat="yyyy-MM-dd HH:mm:ss"/>
+                                    <DateTimePicker id="I_END_DATE" class="sapUiSmallMarginBottom" valueFormat="yyyy-MM-dd HH:mm:ss" />
                                 </fb:control>
                             </fb:FilterItem>
                             <fb:FilterItem name="Log Tipi" label="Log Tipi">
                                 <fb:control>
                                     <ComboBox id="I_TYPE">
-                                        <core:Item key="INFO" text="INFO"/>
-                                        <core:Item key="WARNING" text="WARNING"/>
-                                        <core:Item key="ERROR" text="ERROR"/>
+                                        <core:Item key="INFO" text="INFO" />
+                                        <core:Item key="WARNING" text="WARNING" />
+                                        <core:Item key="ERROR" text="ERROR" />
                                     </ComboBox>
                                 </fb:control>
                             </fb:FilterItem>
@@ -50,7 +50,7 @@
                                     <ComboBox name="Tansaction Yolu" id="I_PATH" placeholder="Elle giriş yapabilirsiniz" items="{
                                         path: '/'
                                     }">
-                                        <core:Item key="{PATH}" text="{PATH}"/>
+                                        <core:Item key="{PATH}" text="{PATH}" />
                                     </ComboBox>
                                 </fb:control>
                             </fb:FilterItem>
@@ -59,7 +59,7 @@
                                     <ComboBox name="Key" id="I_KEY" placeholder="Elle giriş yapabilirsiniz" items="{
                                         path: '/'
                                     }">
-                                        <core:Item key="{KEY}" text="{KEY}"/>
+                                        <core:Item key="{KEY}" text="{KEY}" />
                                     </ComboBox>
                                 </fb:control>
                             </fb:FilterItem>
@@ -75,7 +75,7 @@
                             </fb:FilterItem>
                             <fb:FilterItem name="Satır Sayısı" label="Satır Sayısı">
                                 <fb:control>
-                                    <Input name="Satır Sayısı" id="I_ROW_LIMIT" value="100" placeholder="Varsayılan:100" type="Number"/>
+                                    <Input name="Satır Sayısı" id="I_ROW_LIMIT" value="100" placeholder="Varsayılan:100" type="Number" />
                                 </fb:control>
                             </fb:FilterItem>
                         </fb:filterItems>
@@ -90,28 +90,28 @@
             }">
                 <columns>
                     <Column minScreenWidth="Tablet" demandPopin="true">
-                        <Text text="Kayıt Türü" class="cem"/>
+                        <Text text="Kayıt Türü" class="cem" />
                     </Column>
                     <Column minScreenWidth="Tablet" demandPopin="true">
                         <Text text="Tarih" class="tayyib"/>
                     </Column>
                     <Column minScreenWidth="Tablet" demandPopin="true">
-                        <Text text="Transaction"/>
+                        <Text text="Transaction" />
                     </Column>
                     <Column minScreenWidth="Tablet" demandPopin="true">
-                        <Text text="Key"/>
+                        <Text text="Key" />
                     </Column>
                     <Column minScreenWidth="Tablet" demandPopin="true">
-                        <Text text="Mesaj"/>
+                        <Text text="Mesaj" />
                     </Column>
                     <Column minScreenWidth="Tablet" demandPopin="true">
-                        <Text text="Kullanıcı"/>
+                        <Text text="Kullanıcı" />
                     </Column>
                     <Column minScreenWidth="Tablet" demandPopin="true">
-                        <Text text="Süre (ms)"/>
+                        <Text text="Süre (ms)" />
                     </Column>
                     <Column minScreenWidth="Tablet" demandPopin="true">
-                        <Text text="Detaylar"/>
+                        <Text text="Detaylar" class="omer" />
                     </Column>
                 </columns>
 
@@ -119,13 +119,13 @@
                     <ColumnListItem vAlign="Middle">
                         <cells>
                             <HBox alignItems="Center">
-                                <core:Icon src="{= ${TYPE}==='ERROR' ? 'sap-icon://error': (${TYPE}==='INFO' ? 'sap-icon://message-information': 'sap-icon://alert') }" color="{= ${TYPE}==='ERROR' ? '#CC3300': (${TYPE}==='INFO' ? '#007BFF': '#FFCC00') }" size="25px" width="33px"/>
+                                <core:Icon src="{= ${TYPE}==='ERROR' ? 'sap-icon://error': (${TYPE}==='INFO' ? 'sap-icon://message-information': 'sap-icon://alert') }" color="{= ${TYPE}==='ERROR' ? '#CC3300': (${TYPE}==='INFO' ? '#007BFF': '#FFCC00') }" size="25px" width="33px" />
                                 <Text text="{TYPE}" />
                             </HBox>
                             <Text text="{INSDATE}" />
                             <Text text="{PATH}" />
                             <Text text="{KEY}" />
-                            <Text text="{MESSAGE}" maxLines="3"/>
+                            <Text text="{MESSAGE}" maxLines="3" />
                             <Text text="{INSUSER}" />
                             <Text text="{DURATION}" />
                             <Button text="Mesajı Gör" press="showDetail" type="Emphasized" icon="sap-icon://show"></Button>
