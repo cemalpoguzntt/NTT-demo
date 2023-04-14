@@ -90,7 +90,7 @@
             }">
                 <columns>
                     <Column minScreenWidth="Tablet" demandPopin="true">
-                        <Text text="Kayıt Türü"/>
+                        <Text text="Kayıt Türü" class="cem"/>
                     </Column>
                     <Column minScreenWidth="Tablet" demandPopin="true">
                         <Text text="Tarih"/>

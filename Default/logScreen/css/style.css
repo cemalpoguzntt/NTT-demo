@@ -1,14 +1,16 @@
 /* Enter your custom styles here */
 .testText {
-	color: red !important;
+    color: red !important;
 }
-.orderReleaseScreenRowColor{
-background: ec1c24 !important;
-font-weight: bold;
+
+.orderReleaseScreenRowColor {
+    background: ec1c24 !important;
+    font-weight: bold;
 }
-.orderReleaseScreenHeaderColor{
-background: 4b4949 !important;
-font-weight: bold;
+
+.orderReleaseScreenHeaderColor {
+    background: 4b4949 !important;
+    font-weight: bold;
 }
 
 .greenBackground {
@@ -29,16 +31,20 @@ font-weight: bold;
 
 .sapMTB-Transparent-CTX .sapMText {
     font-weight: bold !important;
-    font-family: "72","72full",Arial,Helvetica,sans-serif !important;
+    font-family: "72", "72full", Arial, Helvetica, sans-serif !important;
     text-shadow: 0 1px 0 #fff !important;
     color: #b00 !important;
-   font-size: 0.9rem  !important;
+    font-size: 0.9rem !important;
 }
 
 .customText {
     font-weight: bold !important;
-    font-family: "72","72full",Arial,Helvetica,sans-serif !important;
+    font-family: "72", "72full", Arial, Helvetica, sans-serif !important;
     text-shadow: 0 1px 0 #fff !important;
     color: #b00 !important;
-   font-size: 0.9rem  !important;
+    font-size: 0.9rem !important;
+}
+
+.cem {
+    color: #2ECC71 !important
 }
