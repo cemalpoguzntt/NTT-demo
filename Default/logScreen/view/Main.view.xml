@@ -9,7 +9,7 @@
         <f:title>
             <f:DynamicPageTitle>
                 <f:heading>
-                    <Title level="H2" text="Kayıt Ekranı">
+                    <Title level="H2" text="Log Screen">
 
                     </Title>
                 </f:heading>
@@ -54,9 +54,9 @@
                                     </ComboBox>
                                 </fb:control>
                             </fb:FilterItem>
-                            <fb:FilterItem name="Anahtar kelime" label="Anahtar kelime">
+                            <fb:FilterItem name="Key" label="Key">
                                 <fb:control>
-                                    <ComboBox name="Anahtar kelime" id="I_KEY" placeholder="Elle giriş yapabilirsiniz" items="{
+                                    <ComboBox name="Key" id="I_KEY" placeholder="Elle giriş yapabilirsiniz" items="{
                                         path: '/'
                                     }">
                                         <core:Item key="{KEY}" text="{KEY}"/>
@@ -90,7 +90,7 @@
             }">
                 <columns>
                     <Column minScreenWidth="Tablet" demandPopin="true">
-                        <Text text="Kayıt Türü"/>
+                        <Text text="Kayıt Türü" class="cem"/>
                     </Column>
                     <Column minScreenWidth="Tablet" demandPopin="true">
                         <Text text="Tarih"/>
