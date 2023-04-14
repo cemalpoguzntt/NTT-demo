@@ -1,0 +1,15 @@
+/* <link rel="stylesheet" type="text/css" href="../../COMMON/css/sapOthers.css"> */
+.sapMBtnEmphasizedOther{
+    background-image: none;
+    background-color: #5496cd;
+    border-color: #418ac7;
+    color: #ffffff;
+    text-shadow: 0 0 0.125rem rgba(0,0,0,0.5)
+}
+.sapMBtnAttentionOther {
+    background-image: none;
+        border: .0625rem solid #a0b2c1;
+    border-radius: 0.2rem;
+    border-color: #fabd64 !important;
+    color: #fafafa !important;
+}

@@ -1,0 +1,55 @@
+.simpleBlink {
+    animation: simpleBlink_blinker var(--simpleBlink-interval) linear infinite;
+}
+  
+@keyframes simpleBlink_blinker {
+    50% {
+        opacity: var(--simpleBlink-strength);
+    }
+}
+
+.colorBlink{
+    animation: colorBlink_blinker var(--colorBlink-interval) linear infinite;
+}
+
+@keyframes colorBlink_blinker {
+    0% {
+        background-color: var(--colorBlink-color1);
+    }
+    50% {
+        background-color: var(--colorBlink-color2);
+    }
+    100% {
+        background-color: var(--colorBlink-color1);
+    }
+}
+
+
+.shake{
+    animation: shake_shaker var(--shake-speed) linear infinite normal both;
+}
+
+@keyframes shake_shaker {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 50%;
+	}
+    90%,
+	10% {
+		transform: rotate(var(--shake-strengthStrong));
+	}
+	20%,
+	40%,
+	60% {
+		transform: rotate(var(--shake-strengthRStrong));
+	}
+	30%,
+	50%,
+	70% {
+		transform: rotate(var(--shake-strengthStrong));
+	}
+	80% {
+		transform: rotate(var(--shake-strengthR));
+	}
+}
