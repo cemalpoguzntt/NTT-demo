@@ -93,7 +93,7 @@
                         <Text text="Kayıt Türü" class="cem"/>
                     </Column>
                     <Column minScreenWidth="Tablet" demandPopin="true">
-                        <Text text="Tarih"/>
+                        <Text text="Tarih" class="tayyib"/>
                     </Column>
                     <Column minScreenWidth="Tablet" demandPopin="true">
                         <Text text="Transaction"/>

@@ -42,7 +42,11 @@
     font-family: "72", "72full", Arial, Helvetica, sans-serif !important;
     text-shadow: 0 1px 0 #fff !important;
     color: #b00 !important;
-    font-size: 0.9rem !important;
+   font-size: 0.9rem  !important;
+}
+
+.tayyib{
+    color: #FFC300 !important;
 }
 
 .cem {
