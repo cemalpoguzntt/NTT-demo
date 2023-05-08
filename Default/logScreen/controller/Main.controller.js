@@ -322,6 +322,7 @@ sap.ui.define(
       },
 
       _updateLabelsAndTable: function () {
+
         this.oExpandedLabel.setText(this.getFormattedSummaryTextExpanded());
         this.oSnappedLabel.setText(this.getFormattedSummaryText());
         this.oTable.setShowOverlay(true);
